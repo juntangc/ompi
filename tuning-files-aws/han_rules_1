@@ -1,0 +1,13 @@
+1 # Collective count
+2 # Collective identifier 1 ALLREDUCE
+1   # Topologic level count
+2   # Topological level identifier 1 (global)
+2       # Configuration count
+1       # Configuration size 1
+2           # Message size rules count
+0 han @simple   # Message size 1 and component identifier
+16384 tuned
+2      # Configuration size 2
+2           # Message size rules count
+0 han @simple   # Message size 1 and component identifier
+16384 tuned

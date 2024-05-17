@@ -1,0 +1,16 @@
+3 # number of collectives
+0 # Collective identifier 1 ALLGATHER (defined in ompi/mca/coll/base/coll_base_functions.h)
+1   # number of comm sizes
+1   # comm size 1
+1               # number of message size rules
+0@disjoint 2 16 0         # for message size 0, choose algorithm 2 (bruck-k), topo 0, 0 segmentation
+2 # Collective identifier 2 ALLREDUCE (defined in ompi/mca/coll/base/coll_base_functions.h)
+1   # number of comm sizes
+1   # comm size 1
+1               # number of message size rules
+0@disjoint 7 16 0         # for message size 0, choose algorithm 7 (allgather reduce), topo 0, 0 segmentation
+11 # Collective identifier 3 REDUCE (defined in ompi/mca/coll/base/coll_base_functions.h)
+1   # number of comm sizes
+1   # comm size 1
+1               # number of message size rules
+0@singlenode 8 4 0         # for message size 0, choose algorithm 8 (knomial), topo 0, 0 segmentation
